@@ -30,3 +30,9 @@ jobs:
       - uses: actions/checkout@v1
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v1        
+  cccc_4th_build:
+      name: My 4th job
+      runs-on: ubuntu-latest
+      steps:
+      - name: Setup Debug session
+        uses: csexton/debugger-action@master     
